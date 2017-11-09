@@ -1,0 +1,169 @@
+  /*==============================FONTS===================*/
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+$cover :rgba(216, 191, 216, .6);
+$dark-purple :rgb(72, 61, 139);
+$letter :#ffffff;
+$portada :url('img/portada.jpg');
+$photo :url('img/foto.jpg');
+$imgSkill:url('img/skills.jpg');
+$imgContact :url('img/contac.jpg');
+
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  
+  /*===============Portada=============================*/
+  .home{
+      background-image :$portada;
+      background-position: center;
+      background-size: cover;
+      width: 105%;
+      height: 100vh;
+      display: flex;
+  
+  }
+  
+  .navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    li {
+      color : rgb(52, 73, 94);
+       font-weight: 900;
+    
+    }
+  }
+
+  .color{
+    width: 105%;
+    height: 100vh;
+    background-color: $cover;
+  
+  }
+  
+  
+  .cont-name{
+    margin-top : 15%;
+  }
+  .name h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    margin: 20px 30px;
+    color:  $dark-purple;
+  }
+  .hr{
+    background-color:$dark-purple;
+    color:  $dark-purple;
+    font-size: large;
+    height: 0.2em;
+  }
+  
+  /*=======================About===============================*/
+  .about{
+    background-color: $dark-purple;
+    color:  $dark-purple;
+    width: 105%;
+  }
+  .photo {
+    background-image: $photo;
+    background-position: center;
+    background-size: cover;
+    background-color:$letter;
+    border-radius: 1em;
+    width: 60vh;
+    height: 60vh;
+    margin : 5%;
+  }
+  
+  .text-about{
+    color: $letter;
+    width: 80vh;
+    height: 80vh;
+    margin: 3%;
+  }
+  .cont-about{
+    font-size: 1.5em;
+    font-weight: 20;
+    text-align: justify;
+    margin: 20% 30px;
+  }
+  
+  
+  .title-about h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    margin: 20px 30px;
+  }
+  
+   /*========================Skills========================*/
+   
+   .skills{
+    background-image :$imgSkill;
+    background-position: center;
+    background-size: cover;
+    width: 105%;
+    height: 100vh;
+    display: flex;
+  }
+  .img-skill{
+    margin: 5%;
+    text-align: center;
+    .div-img{
+      margin: 2%;
+      img{
+        width: 45%;
+        height :10vw;
+        z-index: 1000;
+        margin: auto;
+        padding: 4;
+      }
+    }
+  }
+  
+  
+  /*==============================Projects===============================*/
+   .projects{
+    background-color: $dark-purple;
+    color: $letter;
+    width: 105%;
+    height: 100vh;
+   }
+   
+   img-project{
+    margin: 5%;
+    text-align: center;
+    .div-img-pro{
+      margin-top: auto;
+    }
+  }
+
+  #app{
+    width: 30%;
+    z-index: 1000;
+    margin: auto;
+    padding: 4px;
+  }
+ #web{
+    width: 80%;
+    z-index: 1000;
+    margin: auto;
+    padding: 10px;
+  }
+   
+  
+  
+   /*==============================Contact===============================*/
+   .contact{
+    background-image:$imgContact ;
+    background-size: cover; 
+    background-color: $cover;
+    color: $letter;
+    width: 105%;
+    height: 100vh;
+   }

@@ -1,0 +1,164 @@
+/*==============================FONTS===================*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/*===============Portada=============================*/
+.home {
+  background-image: url("img/portada.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 105%;
+  height: 100vh;
+  display: flex;
+}
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.navbar li {
+  color: #34495e;
+  font-weight: 900;
+}
+
+.color {
+  width: 105%;
+  height: 100vh;
+  background-color: rgba(216, 191, 216, 0.6);
+}
+
+.cont-name {
+  margin-top: 15%;
+}
+
+.name h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  margin: 20px 30px;
+  color: darkslateblue;
+}
+
+.hr {
+  background-color: darkslateblue;
+  color: darkslateblue;
+  font-size: large;
+  height: 0.2em;
+}
+
+/*=======================About===============================*/
+.about {
+  background-color: darkslateblue;
+  color: darkslateblue;
+  width: 105%;
+}
+
+.photo {
+  background-image: url("img/foto.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: #ffffff;
+  border-radius: 1em;
+  width: 60vh;
+  height: 60vh;
+  margin: 5%;
+}
+
+.text-about {
+  color: #ffffff;
+  width: 80vh;
+  height: 80vh;
+  margin: 3%;
+}
+
+.cont-about {
+  font-size: 1.5em;
+  font-weight: 20;
+  text-align: justify;
+  margin: 20% 30px;
+}
+
+.title-about h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  margin: 20px 30px;
+}
+
+/*========================Skills========================*/
+.skills {
+  background-image: url("img/skills.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 105%;
+  height: 100vh;
+  display: flex;
+}
+
+.img-skill {
+  margin: 5%;
+  text-align: center;
+}
+
+.img-skill .div-img {
+  margin: 2%;
+}
+
+.img-skill .div-img img {
+  width: 45%;
+  height: 10vw;
+  z-index: 1000;
+  margin: auto;
+  padding: 4;
+}
+
+/*==============================Projects===============================*/
+.projects {
+  background-color: darkslateblue;
+  color: #ffffff;
+  width: 105%;
+  height: 100vh;
+}
+
+img-project {
+  margin: 5%;
+  text-align: center;
+}
+
+img-project .div-img-pro {
+  margin-top: auto;
+}
+
+#app {
+  width: 30%;
+  z-index: 1000;
+  margin: auto;
+  padding: 4px;
+}
+
+#web {
+  width: 80%;
+  z-index: 1000;
+  margin: auto;
+  padding: 10px;
+}
+
+/*==============================Contact===============================*/
+.contact {
+  background-image: url("img/contac.jpg");
+  background-size: cover;
+  background-color: rgba(216, 191, 216, 0.6);
+  color: #ffffff;
+  width: 105%;
+  height: 100vh;
+}
+ 
+
+ /*# sourceMappingURL= app.css.map */
