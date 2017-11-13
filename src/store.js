@@ -3,35 +3,35 @@ import createStore from "redux-zero";
 let images = [
     {
         name : 'css3',
-        img : 'img/CSS3.png',
+        img : 'devicon-css3-plain colored',
     },
     {
         name :'bootstrap',
-        img : 'img/Bootstrap.png'
+        img : 'devicon-bootstrap-plain colored'
     },
     {
         name : 'html',
-        img : 'img/html.png'
+        img : 'devicon-html5-plain colored'
     },
     {
         name : 'jQuery',
-        img : 'img/jq.png'
+        img : 'devicon-jquery-plain colored'
     },
     {
         name : 'JS',
-        img:'img/js.png'
+        img:'devicon-javascript-plain colored'
     },
     {
         name : 'react',
-        img : 'img/react.png'
+        img : 'devicon-react-original colored'
     },
     {
         name : 'redux',
-        img :'img/redux.png'
+        img :'devicon-github-plain colored'
     },
     {
         name : 'sass',
-        img : 'img/sass.svg'
+        img : 'devicon-sass-original colored'
     }
 
 ];
